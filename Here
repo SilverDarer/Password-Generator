@@ -1,0 +1,15 @@
+import random
+
+alp = ("qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM1234567890!@#$%^&*")
+
+
+pas = ""
+
+
+i = 0
+while(i < 10):
+    i += 1
+    n = random.randint(0, 69)
+    pas += alp[n]
+
+print("Your password is: " + pas)
